@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat',sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: black;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.svg {
+  height: 1.3rem;
+  width: 1.3rem;
+}
+
+button{
+  font-family: 'Montserrat',
+  sans-serif;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.close-success-modal {
+  background-color: white;
+  border: 1px black solid;
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+}
+
+.close-fail-modal {
+  background-color: white;
+  color: #881C59;
+  border: 1px #881C59 solid;
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+}

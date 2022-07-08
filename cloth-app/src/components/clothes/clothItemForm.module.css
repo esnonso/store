@@ -1,0 +1,53 @@
+.cart {
+  font: inherit;
+  cursor: pointer;
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  font-weight: bold;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.form p {
+  color: blue;
+}
+
+.form button:hover,
+.form button:active {
+  background-color: rgb(58, 50, 50);
+  border-color: 1px black solid;
+}
+
+.invalid {
+  color: red;
+}
+
+.sizes {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: bold;
+}
+.sizes label {
+  margin-left: 0.5rem;
+}
+
+.wishlist{
+  font: inherit;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+  font-weight: bold;
+  padding: 0.5rem;
+  width: 100%;
+  margin-bottom: 0.2rem;
+}
+
+@media (max-width: 600px) {
+  .form button {
+    padding: 0.25rem 0;
+    font-weight: normal;
+    font-size: small;
+  }
+}

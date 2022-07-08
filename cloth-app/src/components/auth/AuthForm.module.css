@@ -1,0 +1,174 @@
+.section {
+  width: 100%;
+  margin: 0 auto;
+  height: fit-content;
+  box-sizing: border-box;
+  animation: slide-down 300ms ease-out forwards;
+  background-color: white;
+  padding-top: 1rem;
+  border-radius: 10px;
+}
+
+.form {
+  width: 90%;
+  margin:0 auto;
+  position: relative;
+  background-color: white;
+  margin-bottom: 1rem;
+  color: black;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.form h1 {
+  text-align: center;
+}
+
+.form a {
+  color: blue;
+  text-decoration: none;
+}
+
+.control {
+  margin-bottom: 1rem;
+ 
+}
+
+.control label {
+  margin-bottom: 0.25rem;
+  display: block;
+  font-weight: 600;
+}
+
+.control input{
+  font: inherit;
+  border: 1px solid #ccc;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding: 0.3rem;
+  border-radius: 30px;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+  padding-left: 1rem;
+}
+
+.control select {
+  font: inherit;
+  border: 1px solid #ccc;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding: 0.3rem;
+  border-radius: 30px;
+}
+
+.checkbox{
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.actions {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.actions button {
+  width: 100%;
+  font: inherit;
+  cursor: pointer;
+  padding: 0.3rem;
+  background-color: black;
+  border:  1px black solid;
+  color: white;
+  border-radius: 30px;
+  font-size: 0.9rem;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: rgb(56, 48, 48);
+}
+
+.actions .submit:hover,
+.actions .submit:active {
+  background-color: #5a1a01;
+}
+
+
+.invalid input {
+  background-color: #ffeff1;
+  font: inherit;
+  border: 1px solid #aa0b20;
+  border-radius: 4px;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  padding: 0.3rem;
+  border-radius: 30px;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+  padding-left: 1rem;
+}
+
+.invalid {
+  color: red;
+}
+
+small{
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.button:disabled,
+.button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+
+.agree{
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.agree:hover{
+  cursor: pointer;
+}
+
+.x{
+  text-align: right;
+  padding:0 1rem;
+  box-sizing: border-box;
+}
+
+.x button{
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+.link:hover{
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .section {
+    width: 100%;
+  }
+
+  .control input{
+    width: 100%;
+  }
+
+  .invalid input{
+    width: 100%;
+  }
+
+  small{
+    width: 100%;
+  }
+}

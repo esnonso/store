@@ -1,0 +1,159 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.sideNav {
+  position: fixed;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  top: 0;
+  left: 0;
+  width: 30%;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 10;
+  overflow: scroll;
+}
+
+.sideNav a {
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  display: block;
+  color: white;
+  background-color: black;
+  margin: 0.2rem;
+  display: block;
+}
+
+.nav {
+  text-decoration: none;
+  display: block;
+  color: white;
+  background-color: black;
+  margin: 0.2rem;
+  display: block;
+  width: 96%;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.sidebar-profile button{
+  font-size: 1rem;
+  border: none;
+  padding: 0.5rem 1rem;
+  color: white;
+  display: block;
+  box-sizing: border-box;
+  width:98.2%;
+}
+
+.sidebar-profile {
+  border-top: 1px black solid;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sidebar-profile p { 
+  margin: 0;
+  margin-top: 0.1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.category {
+  
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.main{
+  margin: 0;
+  border-bottom: 1px black solid;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.category p:hover {
+  cursor: pointer;
+}
+
+.sideNav a:hover {
+  color: #0047ec;
+}
+
+.sideNav li {
+  list-style-type: none;
+}
+
+.close-div{
+  text-align: right;
+  width: 100%;
+}
+
+.close-button {
+  background-color: inherit;
+  color: black;
+  font-weight: 600;
+  border: none;
+  padding: 0.5rem;
+}
+
+.sidebar-profile:hover{
+  cursor: pointer;
+}
+
+.profile-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.profile p{
+  margin: 0;  
+}
+
+.items {
+  margin: 0;
+}
+
+
+@media (max-width: 768px) {
+ .sideNav{
+   width: 80%;
+ }
+}
+
+@media only screen and (max-width:600px) {
+  .sideNav {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width:600px) {
+  .sideNav {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width:992px) {
+  .sideNav {
+    width: 35.5%;
+  }
+}
+
+@media only screen and (min-width:1200px) {
+  .sideNav {
+    width: 30%;
+  }
+}

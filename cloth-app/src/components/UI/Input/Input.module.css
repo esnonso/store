@@ -1,0 +1,22 @@
+.input {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.input label {
+  font-weight: bold;
+  font-size: small;
+}
+
+.input input {
+  width: 2rem;
+  border: 1px solid #ccc;
+  font: inherit;
+}
+
+@media (max-width: 600px) {
+  .input input {
+    width: 2rem;
+  }
+}
